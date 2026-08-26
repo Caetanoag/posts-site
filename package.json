@@ -1,0 +1,23 @@
+{
+	"name": "posts-api",
+	"version": "1.0.0",
+	"main": "server.ts",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/server.ts"
+	},
+	"dependencies": {
+		"@node-rs/argon2": "^2.1.0",
+		"dotenv": "^17.4.2",
+		"dotenv-expand": "^1000.0.0",
+		"express": "^5.2.1",
+		"ioredis": "^6.0.0",
+		"pg": "^8.23.0"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/pg": "^8.23.1",
+		"tsx": "^4.23.12"
+	}
+}
