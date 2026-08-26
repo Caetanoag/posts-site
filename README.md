@@ -8,7 +8,7 @@ Decidi programar esse sistema pra praticar um pouco de arquitetura de software e
 Execute os comandos nessa ordem, na raiz:
 ```bash
 #Subindo os containers
-docker-compose up -d;
+docker-compose up -d
 # Se quiser logs do servidor
 docker-compose logs app -f
 ```
